@@ -1,11 +1,10 @@
 from random import randint
 from time import sleep
 
+
 class cat:
 
-    
     def __init__(self):
-
         self.Health = 100
         self.sleepchance = 50
         self.meowchance = 3
@@ -29,7 +28,7 @@ whiles = 0
 while True:
     sleep(1)
     if whiles < 20 and Cat.Health <= 200:
-        if randint(1, Cat.meowchance) == 2:
+        if randint(1, Cat.meowchance) == randint(1, Cat.meowchance):
             Cat.meow()
         if randint(1, Cat.sleepchance) == 36:
             Cat.catsleep()
