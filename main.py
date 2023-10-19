@@ -1,7 +1,9 @@
 from random import randint
 from time import sleep
+
 class cat:
 
+    
     def __init__(self):
 
         self.Health = 100
