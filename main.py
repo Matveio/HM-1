@@ -29,9 +29,9 @@ whiles = 0
 while True:
     sleep(1)
     if whiles < 20 and Cat.Health <= 200:
-        if randint(1, 3) == 2:
+        if randint(1, Cat.meowchance) == 2:
             Cat.meow()
-        if randint(1, 50) == 36:
+        if randint(1, Cat.sleepchance) == 36:
             Cat.catsleep()
 
         whiles += 1
